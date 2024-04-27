@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="author" content="Yan Moisés Rodrigues"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image fade">
+            <img src="/img/Tokyo.png" alt="Tokyo" width="100%" height="100%">
+        </div>
+        <div class="image fade">
+            <img src="/img/TOKOBUSHIYA.png" alt="Tokobushiya" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="/img/LAMBO.png" alt="lambo" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="/img/GTR.jpg" alt="GTR" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="/img/POINT.png" alt="Point" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="/img/RX7.jpg" alt="Rx7" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="/img/S14.jpg" alt="S14" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="/img/SUPRA.jpg" alt="Supra" width="100%">
+        </div>
+        <i id="prev" onclick="show_image(-1)" class="fa-solid fa-angle-left"></i>
+    <i id="next" onclick="show_image(1)" class="fa-solid fa-angle-right"></i>
+    <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>     
+</div>    
+    <script src="js/script.js"></script>
+</body>
+</html>
